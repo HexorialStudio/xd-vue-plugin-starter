@@ -1,0 +1,57 @@
+{
+  "name": "xd-vue-plugin-starter",
+  "author": "Hexorial Studio",
+  "host": {
+    "app": "XD",
+    "minVersion": "26.0"
+  },
+  "languages": ["en"],
+  "keywords": [],
+  "helpUrl": "hello@hexorial.studio",
+  "website": "https://hexorial.studio",
+  "id": "43038824",
+  "icons": [
+    {
+      "path": "images/icon@1x.png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "images/icon@2x.png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "images/icon@3x.png",
+      "width": 72,
+      "height": 72
+    },
+    {
+      "path": "images/icon@4x.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "images/icon@5x.png",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "path": "images/icon@6x.png",
+      "width": 144,
+      "height": 144
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "label": "xd-vue-plugin-starter",
+      "type": "panel",
+      "panelId": "xd-vue-plugin-starter",
+      "shortcut": {
+        "mac": "Ctrl+Shift+v",
+        "win": "Ctrl+Shift+v"
+      }
+    }
+  ],
+  "version": "0.0.1"
+}

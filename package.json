@@ -1,0 +1,28 @@
+{
+  "name": "xd-vue-plugin-starter",
+  "version": "0.0.1",
+  "main": "main.js",
+  "scripts": {
+    "watch": "nodemon -w src -e js,vue,css -w webpack.config.js -x yarn build",
+    "build": "webpack --mode development"
+  },
+  "license": "none",
+  "private": true,
+  "devDependencies": {
+    "vue-loader": "^15.2.6",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "css-loader": "^1.0.0",
+    "mixpanel": "^0.13.0",
+    "net": "^1.0.2",
+    "nodemon": "^2.0.4",
+    "style-loader": "^0.22.0",
+    "tls": "^0.0.1",
+    "vue": "^2.5.17",
+    "vue-template-compiler": "^2.5.17",
+    "vuex": "^3.6.0",
+    "whatwg-fetch": "^3.4.1"
+  }
+}
